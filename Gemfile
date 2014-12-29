@@ -32,6 +32,7 @@ group :assets do
 end
 
 group :test do
+  gem 'simplecov'
   gem 'capybara'
 end
 # Use ActiveModel has_secure_password
