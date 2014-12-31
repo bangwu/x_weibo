@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby  '2.0.0'
+ruby  '2.1.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use mysql as the database for Active Record
@@ -25,6 +25,7 @@ gem 'spring',        group: :development
 gem 'rails_12factor'
 gem 'pg'
 gem 'rspec-rails'
+gem 'devise'
 group :assets do
   gem 'sass-rails'
   gem 'coffee-rails'
